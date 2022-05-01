@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+		background-color: gainsboro;
+}
+
+
+main h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+main .content {
+	position: relative;
+	top: 100px;
+	width: 280px;
+	margin: 0 auto;
+}
+
+
+
+.addElement {
+	display: flex;
+	justify-content: space-between;
+}
+
+.addElement #input {
+	border: none;
+	padding: 2px;
+	border-bottom: 2px solid #0705f7;
+	outline: none;
+}
+
+.addElement .btn {
+	background-color: #0705f7;
+	font-weight: bold;
+	border: none;
+	padding: 4px;
+	cursor: pointer;
+	width:50px;
+}
+
+.addElement .btn:hover {
+	background-color: #0505aa;
+}
+button:hover {
+	background-color: #0505aa;
+}
+
+button {
+	cursor: pointer;
+	border:none;
+	padding: 4px;
+}
+
+
+
+section .ell {
+	text-align: center;
+	display: flex;
+	background-color:#0705f7;
+	justify-content: space-between;
+	margin-top: 2px;
+	padding: 10px;
+
+	
+}
+
+.elements h2 {
+	float: left;
+}
+.elements button {
+	float: right;
+}
+
+
+.results {
+	position: relative;top: 30px;
+	text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:500px){
+	main h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+
+}
+
+
+@media only screen and (max-width:300px){
+	main h1 {
+		font-size: 20px;
+	}
+
+}
